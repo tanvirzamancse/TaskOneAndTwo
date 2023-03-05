@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "590214704525",
+    "project_id": "taskoneandtwo",
+    "storage_bucket": "taskoneandtwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590214704525:android:40b0a08396906db88ba1c4",
+        "android_client_info": {
+          "package_name": "com.example.taskoneandtwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590214704525-soql72rdpfqihgvtmv75d1cunfhksk0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUOwgHOM1ZHkq4C3baVIiAnfcn07GtXYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590214704525-soql72rdpfqihgvtmv75d1cunfhksk0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

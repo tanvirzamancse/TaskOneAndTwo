@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="appTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorPrimaryVariant">@color/appColor</item>
+        <item name="colorOnPrimary">@color/appColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/appColor</item>
+        <item name="colorSecondaryVariant">@color/appColor</item>
+        <item name="colorOnSecondary">@color/appColor</item>
+        <!-- Status bar color. -->
+        <!--  <item name="android:navigationBarColor">@color/appColor</item>-->
+        <!--  <item name="android:windowTranslucentNavigation">true</item>-->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+
+
+        <!--    <item name="android:fitsSystemWindows">false</item>-->
+        <!--  <item name="android:windowFullscreen">false</item>-->
+        <!--  <item name="android:windowContentOverlay">@color/white</item>-->
+        <!--   <item name="android:windowFullscreen">false</item>-->
+        <!--      <item name="android:windowContentOverlay">@null</item>-->
+
+    </style>
+
+
+</resources>

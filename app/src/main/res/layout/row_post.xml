@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#D9D9D9"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/postTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Title is going to here"
+            android:textColor="#0D8676"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:id="@+id/postdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipi_scing_elit_elit_laoreet_ipsum_ultrices_donec_lorem_ipsum_more"
+            android:textColor="#828282"
+            android:textSize="12sp"
+            app:trimCollapsedText="Show Less"
+            app:trimExpandedText="Show More"
+            app:trimLength="100"
+            app:colorClickableText="#292929"
+            app:trimMode="trimModeLength" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
